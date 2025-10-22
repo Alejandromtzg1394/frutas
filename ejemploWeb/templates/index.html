@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+ <head>
+    <meta character="UTF-8">
+    <title> Primer ejemplo</title>
+ </head>
+ <body>
+ 
+   <h2> Mensaje:{{mensaje}}</h2>
+   <table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Nombre</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for fruta in lista_f %}
+      <tr>
+        <td>{{ fruta.id }}</td>
+        <td>{{ fruta.nombre }}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+<form action="/inicializar" method="get">
+<button type="submit">Inicializar base de datos</button>
+</from>
+ 
+ </body
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
